@@ -1,0 +1,60 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+  background-color: #F3F3F3;
+}
+.pick {
+  padding: 1px!important;
+}
+.padding-none{
+  padding: 0!important;
+}
+.padding-10{
+  padding: 10px!important;
+}
+.margin-none {
+  margin: 0!important;
+}
+.margin-top{
+  margin-top: 0.7rem;
+}
+.card.small {
+  overflow: hidden;
+  height: 130px;
+  margin-bottom: 0px;
+}
+.locations {
+  width: 65%;
+}
+.concenter {
+  max-width: 768px;
+  margin: 0 auto;
+}
+.font-medium {
+  font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  .activator {
+    /*max-width: 100px;*/
+  }
+  .card.small {
+    overflow: hidden;
+    height: 140px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card.small {
+    overflow: hidden;
+    height: 150px;
+  }
+  .locations {
+    width: 60%;
+  }
+}
